@@ -1,0 +1,141 @@
+[
+    {
+      "id": 1,
+      "title": "Avengers Endgame",
+      "description": "The Avengers embark on a final mission to save the universe.",
+      "imageUrl": "/images/avengers_endgame_cv2.jpeg",
+      "showtimes": ["10:00 AM", "2:30 PM", "7:00 PM"],
+      "imdbRating": "8.0",
+      "duration": "2h 30min",
+      "country": "USA",
+      "language": "English",
+      "releaseDate": "May 4, 2019",
+      "directors": ["Anthony Russo", "Joe Russo"],
+      "storyline": "In Avengers: Endgame, the surviving members of the Avengers and their allies work to reverse the damage caused by Thanos in Infinity War.",
+      "cast": [
+        {
+          "name": "Robert Downey Jr.",
+          "image": "https://m.media-amazon.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@._V1_UX150_CR0,0,150,218_AL_.jpg"
+        },
+        {
+          "name": "Chris Evans",
+          "image": "https://m.media-amazon.com/images/M/MV5BNWIzZTI1ODUtZTUzMC00NTdiLWFlOTYtZTg4MGZkYmU4YzNlXkEyXkFqcGdeQXVyNTExOTk5Nzg@._V1_UX150_CR0,0,150,218_AL_.jpg"
+        },
+        {
+          "name": "Mark Ruffalo",
+          "image": "https://m.media-amazon.com/images/M/MV5BMTU2NTg1OTQzMF5BMl5BanBnXkFtZTcwNjIyMjkyMg@@._V1_UY218_CR2,0,150,218_AL_.jpg"
+        },
+        {
+          "name": "Scarlett Johansson",
+          "image": "https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_UY218_CR15,0,150,218_AL_.jpg"
+        },
+        {
+          "name": "Jeremy Renner",
+          "image": "https://m.media-amazon.com/images/M/MV5BOTk2NDc2ODgzMF5BMl5BanBnXkFtZTcwMTMzOTQ4Nw@@._V1_UX150_CR0,0,150,218_AL_.jpg"
+        },
+        {
+          "name": "Cobie Smulders",
+          "image": "https://m.media-amazon.com/images/M/MV5BN2ViYjA1NzAtMTU0NS00NTc4LThmNGItZDJlNzY4YjQ2OWMwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_UX150_CR0,0,150,218_AL_.jpg"
+        }
+      ],
+      "images": [
+        "/images/avengers_endgame_img1.jpeg",
+        "/images/avengers_endgame_img2.jpeg",
+        "/images/avengers_endgame_img3.jpeg",
+        "/images/avengers_endgame_img4.jpeg",
+        "/images/avengers_endgame_img5.jpeg"
+      ],
+      "dispo": "true"
+    },
+    {
+      "id": 2,
+      "title": "Oppenheimer",
+      "description": "A dramatization of the life story of J. Robert Oppenheimer, the physicist who had a large hand in the development of the atomic bomb, thus helping end World War 2. We see his life from university days all the way to post-WW2, where his fame saw him embroiled in political machinations.",
+      "imageUrl": "/images/Oppenheimer_cv2.jpeg",
+      "showtimes": ["1:00 PM", "5:30 PM", "10:15 PM"],
+      "imdbRating": "7.8",
+      "duration": "2h 15min",
+      "country": "USA",
+      "language": "English",
+      "releaseDate": "April 15, 2020",
+      "directors": ["Christopher Nolan"],
+      "storyline": "Oppenheimer is a biographical drama that follows the life of J. Robert Oppenheimer, a key figure in the development of the atomic bomb during World War II.",
+      "cast": [
+        {
+          "name": "Cillian Murphy",
+          "image": "https://m.media-amazon.com/images/M/MV5BMTA0MzUzODcxMTNeQTJeQWpwZ15BbWU4MDc2NTMzMjEy._V1_UY218_CR4,0,150,218_AL_.jpg"
+        },
+        {
+          "name": "Emily Blunt",
+          "image": "https://m.media-amazon.com/images/M/MV5BMTk1MTIyMTk0Nl5BMl5BanBnXkFtZTcwMjEzMTY3Nw@@._V1_UX150_CR0,0,150,218_AL_.jpg"
+        },
+        {
+          "name": "Tom Hardy",
+          "image": "https://m.media-amazon.com/images/M/MV5BMTI5MTk4MTc5M15BMl5BanBnXkFtZTcwMzA4NTMzMw@@._V1_UY218_CR1,0,150,218_AL_.jpg"
+        }
+      ],
+      "images": [
+        "/images/oppenheimer_img1.jpeg",
+        "/images/oppenheimer_img2.jpeg",
+        "/images/oppenheimer_img3.jpeg"
+      ],
+      "dispo": "true"
+    },
+    {
+      "id": 3,
+      "title": "Spider-Man: No Way Home",
+      "releaseDate": "2023-03-25",
+      "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+      "imageUrl": "/images/spidermanNoWayHome_cv1.jpeg",
+      "dispo": "false"
+    },
+    {
+      "id": 4,
+      "title": "Dune: Part Two",
+      "releaseDate": "2024-02-01",
+      "description": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
+      "imageUrl": "/images/dune_cv1.jpeg",
+      "dispo": "false"
+    },
+    {
+      "id": 5,
+      "title": "Kingdom of the Planet of the Apes",
+      "releaseDate": "2024-03-18",
+      "description": "Several generations in the future following Caesar's reign, apes are now the dominant species and live harmoniously while humans have been reduced to living in the shadows.",
+      "imageUrl": "/images/kg.jpeg",
+      "dispo": "false"
+    },
+    {
+      "id": 6,
+      "title": "Terrifier 3",
+      "releaseDate": "2024-08-10",
+      "description": "After the bloody events of Terrifier 2, Art the Clown once again returns to Miles County setting to unleash chaos on the unsuspecting residents of the town as they peacefully drift off to sleep on Christmas Eve.",
+      "imageUrl": "/images/Terrifier_cv1.jpeg",
+      "dispo": "false"
+    },
+    {
+      "id": 7,
+      "title": "The Little Mermaid",
+      "releaseDate": "2023-05-08",
+      "description": "The youngest of King Triton’s daughters, and the most defiant, Ariel longs to find out more about the world beyond the sea, and while visiting the surface, falls for the dashing Prince Eric.",
+      "imageUrl": "/images/little_cv1.jpeg",
+      "dispo": "false"
+    },
+    {
+      "id": 8,
+      "title": "Wonka",
+      "releaseDate": "2024-01-08",
+      "description": "Willy Wonka – chock-full of ideas and determined to change the world one delectable bite at a time – is proof that the best things in life begin with a dream, and if you’re lucky enough to meet Willy Wonka, anything is possible.",
+      "imageUrl": "/images/wonka_cv1.jpeg",
+      "dispo": "false"
+    },
+    {
+      "id": 9,
+      "title": "Aladdin",
+      "releaseDate": "2023-02-19",
+      "description": "A kindhearted street urchin named Aladdin embarks on a magical adventure after finding a lamp that releases a wisecracking genie while a power-hungry Grand Vizier vies for the same lamp that has the power to make their deepest wishes come true.",
+      "imageUrl": "/images/aladdin.jpeg",
+      "dispo": "false"
+    }
+  ]
+  
