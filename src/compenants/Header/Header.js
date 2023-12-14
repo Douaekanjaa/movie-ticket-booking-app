@@ -15,7 +15,7 @@ export default function Header() {
       <div className="logo-nav">
         <div className="logo-container">
           <Link to="/">
-            <img src="./NisDua.png" alt="logo" className="logo" />
+            <img src={`${process.env.PUBLIC_URL}/NisDua.png`} alt="logo" className="logo" />
           </Link>
         </div>
         <div className="navM">

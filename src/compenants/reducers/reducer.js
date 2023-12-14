@@ -1,4 +1,3 @@
-// reducer.js
 
 const initialState = {
   purchaseHistory: [],
@@ -11,7 +10,6 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         purchaseHistory: [...state.purchaseHistory, action.payload],
       };
-    // Add other cases if needed
 
     default:
       return state;

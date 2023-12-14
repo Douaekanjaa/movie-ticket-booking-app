@@ -1,4 +1,4 @@
-// ImgSlider.js
+
 import React, { useState } from 'react';
 import './Slider.css';
 import BtnSlider from './BtnSlider';
@@ -25,7 +25,6 @@ export default function ImgSlider({ images }) {
   const moveDot = index => {
     setSlideIndex(index);
   };
-
   return (
     <div className="container-slider">
       {images.map((img, index) => (
@@ -34,7 +33,7 @@ export default function ImgSlider({ images }) {
           className={slideIndex === index + 1 ? 'slide active-anim' : 'slide'}
         >
           <img
-            src={`${process.env.PUBLIC_URL}/images/${img}`}
+            src={`${process.env.PUBLIC_URL}/${img}`}
             alt={`img${index + 1}`}
           />
         </div>
