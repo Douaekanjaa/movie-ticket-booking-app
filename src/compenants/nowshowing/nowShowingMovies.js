@@ -26,7 +26,7 @@ const NowShowing = () => (
     <div className="now-showing-container justify-content-center justify-content-md-start">
       {nowShowingMovies.map((movie) => (
         <Card key={movie.id} className="movie-card1 my-2 my-md-4 mx-0 mx-md-4">
-          <Card.Img className="movie-image" variant="top" src={movie.imageUrl} alt={movie.title} />
+          <Card.Img className="movie-image" variant="top" src={process.env.PUBLIC_URL + movie.imageUrl} alt={movie.title} />
 
           <div className="movie-details">
             <Link to={`/movie/${movie.id}`} id='lk'>
@@ -44,6 +44,7 @@ const NowShowing = () => (
         </Card>
       ))}
     </div>
+  
   </div>
 );
 

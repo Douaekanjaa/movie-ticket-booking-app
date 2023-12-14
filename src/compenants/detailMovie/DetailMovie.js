@@ -42,7 +42,7 @@ const DetailMovie = () => {
       </div>
 
       <div className="movie-img">
-        <img src={movieDetails.imageUrl} alt="movie img" />
+        <img src={process.env.PUBLIC_URL +movieDetails.imageUrl} alt="movie img" />
         <Link to={`/buy-ticket/${id}`}>
           <button className="buy-ticket-button">Buy Ticket</button>
         </Link>

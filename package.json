@@ -12,7 +12,7 @@
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
     "react-redux": "^9.0.4",
-    "react-router-dom": "^6.20.1",
+    "react-router-dom": "^6.21.0",
     "react-scripts": "5.0.1",
     "redux": "^5.0.0",
     "web-vitals": "^2.1.4"
@@ -46,5 +46,5 @@
   "devDependencies": {
     "gh-pages": "^6.1.0"
   },
-  "homepage": "https://douaekanjaa.github.io/movie-ticket-booking-app/" 
+  "homepage": "https://douaekanjaa.github.io/movie-ticket-booking-app/"
 }

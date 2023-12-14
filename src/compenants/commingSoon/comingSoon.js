@@ -22,7 +22,7 @@ export default function comingSoon() {
 
             <div className="card-inner">
               <div className="card-face front">
-                <Card.Img className="movie-image2" variant="top" src={movie.imageUrl} alt={movie.title} />
+                <Card.Img className="movie-image2" variant="top" src={process.env.PUBLIC_URL +movie.imageUrl} alt={movie.title} />
                 <div className="movie-details2">
                   <Card.Title className='title'>{movie.title}</Card.Title>
                   <div className='movie-dt2'>

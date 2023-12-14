@@ -6,10 +6,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import store from './compenants/reducers/store'; 
-
 import { BrowserRouter } from 'react-router-dom';
 
-const root = createRoot(document.getElementById('root'));
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <BrowserRouter basename='/movie-ticket-booking-app'>
@@ -18,6 +18,5 @@ root.render(
     </Provider>
   </BrowserRouter>
 );
-
 
 reportWebVitals();

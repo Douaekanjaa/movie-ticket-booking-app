@@ -11,7 +11,8 @@ const Movie = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/movieData.json');
+        const response = await fetch(`${process.env.PUBLIC_URL}/movieData.json`);
+
         const data = await response.json();
         setMovies(data);
       } catch (error) {
@@ -54,7 +55,7 @@ const Movie = () => {
         {filteredMovies.map((movie) => (
           <div key={movie.id} className="movie4">
             <div className='movie-img4'>
-              <img src={movie.imageUrl} alt={movie.title} className="movie-img4" />
+              <img src={process.env.PUBLIC_URL +movie.imageUrl} alt={movie.title} className="movie-img4" />
             </div>
             <div className="movie-details4">
               <h2>{movie.title}</h2>

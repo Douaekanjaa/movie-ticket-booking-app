@@ -14,10 +14,10 @@ import Movie from './compenants/movie/movie';
 import BuyTicket from './compenants/BuyTicket';
 import PurchaseHistory from './compenants/PurchaseHistory';
 
-
 const App = () => {
   return (
-    <Router>
+    <>
+      <Header />
       <Routes>
         <Route
           path="/"
@@ -41,7 +41,7 @@ const App = () => {
         <Route path="/signin" element={<SignIn />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </Router>
+    </>
   );
 };
 

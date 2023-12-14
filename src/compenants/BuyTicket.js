@@ -44,7 +44,7 @@ const BuyTicket = () => {
   return (
     <div className="buy-ticket-container">
       <h2>{title}</h2>
-      <img src={imageUrl} alt={title} className="movie-image9" />
+      <img src={process.env.PUBLIC_URL +imageUrl} alt={title} className="movie-image9" />
 
       <div className="movie-details">
         <p className='p56'>{description}</p>
