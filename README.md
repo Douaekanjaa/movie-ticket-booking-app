@@ -6,7 +6,7 @@ Immerse yourself in the world of blockbuster movies, seamless ticket purchasing,
 
 ## Explore Now! 🚀
 
-Click [here](#) to explore a live demo of the Cinema Ticket Booking website and start your cinematic journey!
+Click [here](https://douaekanjaa.github.io/movie-ticket-booking-app/) to explore a live demo of the Cinema Ticket Booking website and start your cinematic journey!
 
 ## Technologies Used 🛠️
 
