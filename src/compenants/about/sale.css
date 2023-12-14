@@ -1,0 +1,77 @@
+/* Sale.css */
+
+.sale-container {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .sale-title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .sale-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sale-item {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 20px 40px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  @media (min-width: 576px) {
+    .sale-item {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .sale-item {
+      width: calc(33.33% - 40px);
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .sale-item {
+      width: calc(25% - 40px);
+    }
+  }
+  
+  .sale-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .sale-card {
+    border-radius: 8px; /* Increased border-radius for a smoother look */
+    overflow: hidden;
+  }
+  
+  .sale-content {
+    padding: 30px; /* Increased padding for more space */
+  }
+  
+  .sale-holiday {
+    font-size: 28px; /* Larger font size for the holiday name */
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  .sale-promotion {
+    font-size: 20px; /* Larger font size for the promotion details */
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .sale-dates {
+    font-size: 18px; /* Larger font size for the date details */
+    color: #555;
+  }
+  

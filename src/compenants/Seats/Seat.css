@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.cineseat {
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+  font-size: 14px;
+  display: grid;
+  place-items: center;
+}
+
+.cinset {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+
+.ShowCase {
+  margin: 0 0 48px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: black;
+  padding: 12px;
+  border-radius: 4px;
+  color: white;
+  margin-top: 50px;
+  margin-right: 30px
+}
+
+.ShowCase li {
+  margin: 0 12px;
+}
+
+.Cinema {
+  margin-bottom: 18px;
+  perspective: 400px;
+
+  display: grid;
+  place-items: center;
+  grid-gap: 24px;
+}
+
+.Cinema .screen {
+  height: 90px;
+  background: white;
+  width: 100%;
+  transform: rotateX(-30deg) scale(1.1);
+  box-shadow: 0 3px 10px 2px;
+  margin-right: 40px;
+}
+
+.Cinema .seats {
+  display: grid;
+  grid-gap: 6px;
+  grid-template-columns: repeat(8, min-content);
+  align-items: center;
+}
+
+.Cinema .seats .seat:nth-of-type(8n + 2) {
+  margin-right: 12px;
+}
+
+.Cinema .seats .seat:nth-of-type(8n + 6) {
+  margin-right: 12px;
+}
+
+.Cinema .seats .seat:not(.occupied):hover,
+.Cinema .seats .seat:not(.occupied):focus {
+  cursor: pointer;
+  background: #ff6c73;
+  transform: scale(1.2);
+}
+
+.Cinema .seats .seat.selected::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid #e50914;
+  animation: show-off 0.8s;
+  visibility: hidden;
+}
+
+@keyframes show-off {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+.seat {
+  display: inline-block;
+  background: #626262;
+  width: 16px;
+  height: 12px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  top: 1px;
+}
+
+.seat.selected {
+  background: #e50914 !important;
+}
+
+.seat.occupied {
+  background: #cfcfcf;
+}
+
+@media screen and (max-width: 768px) {
+  .Cinema {
+    margin-bottom: 10px; 
+    perspective: unset; 
+  }
+
+  .Cinema .screen {
+    height: 90px; 
+    transform: rotateX(-20deg) scale(1.1);
+    margin-top: 5px;
+  }
+
+  .Cinema .seats {
+    grid-gap: 4px; 
+    margin-right: 50px;
+  }
+
+  .Cinema .seats .seat {
+    width: 15px;
+    height: 13px; 
+    margin: 2px; 
+  }
+
+  .ShowCase {
+    margin-top: 15px;
+    margin-bottom: 18px;
+  }
+
+  .ShowCase li {
+    margin: 0 6px; 
+  }
+}
+

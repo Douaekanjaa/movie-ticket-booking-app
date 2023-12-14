@@ -1,0 +1,53 @@
+
+[
+    {
+      "id": 1,
+      "title": "Spider-Man: No Way Home",
+      "releaseDate": "2023-03-25",
+      "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+      "imageUrl": "/images/spidermanNoWayHome_cv1.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Dune: Part Two",
+      "releaseDate": "2024-02-01",
+      "description": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
+      "imageUrl": "/images/dune_cv1.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Kingdom of the Planet of the Apes",
+      "releaseDate": "2024-03-18",
+      "description": "Several generations in the future following Caesar's reign, apes are now the dominant species and live harmoniously while humans have been reduced to living in the shadows. ",
+      "imageUrl": "/images/kg.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Terrifier 3",
+      "releaseDate": "2024-08-10",
+      "description": "After the bloody events of Terrifier 2, Art the Clown once again returns to Miles County setting to unleash chaos on the unsuspecting residents of the town as they peacefully drift off to sleep on Christmas Eve.",
+      "imageUrl": "/images/Terrifier_cv1.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "The Little Mermaid ",
+      "releaseDate": "2023-05-08",
+      "description": "The youngest of King Triton’s daughters, and the most defiant, Ariel longs to find out more about the world beyond the sea, and while visiting the surface, falls for the dashing Prince Eric.",
+      "imageUrl": "/images/little_cv1.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Wonka",
+      "releaseDate": "2024-01-08",
+      "description": "Willy Wonka – chock-full of ideas and determined to change the world one delectable bite at a time – is proof that the best things in life begin with a dream, and if you’re lucky enough to meet Willy Wonka, anything is possible.",
+      "imageUrl": "/images/wonka_cv1.jpeg"
+    },
+    {
+      "id": 7,
+      "title": "Aladdin",
+      "releaseDate": "2023-02-19",
+      "description": "A kindhearted street urchin named Aladdin embarks on a magical adventure after finding a lamp that releases a wisecracking genie while a power-hungry Grand Vizier vies for the same lamp that has the power to make their deepest wishes come true.",
+      "imageUrl": "/images/aladdin.jpeg"
+    }
+  ]
+  

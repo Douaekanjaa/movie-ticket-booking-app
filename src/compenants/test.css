@@ -1,0 +1,34 @@
+/* Test.css */
+.div1 h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: #e35353 !important;
+    text-transform: capitalize;
+    text-align: start;
+    margin-bottom: 10px;
+    color: transparent;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .div1 h1::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    animation: revealText 9s steps(30, end) forwards;
+  }
+  
+  @keyframes revealText {
+    from {
+      width: 0; /* Start with no width */
+    }
+    to {
+      width: 100%; /* End with full width */
+    }
+  }
+  

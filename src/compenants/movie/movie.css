@@ -1,0 +1,128 @@
+.movie-container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.893);
+  }
+
+.filter-section {
+    margin: 40px 0px;
+    padding: 5px 20px;
+    text-align: center;
+  }
+  
+
+  .lb4 {
+    margin-right: 10px;
+    
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  .sl4,
+  .ip4 {
+    padding: 10px;
+    margin-right: 30px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .sl4:hover,
+  .ip4:hover,
+  .sl4:focus,
+  .ip4:focus {
+    border-color: #217dbb;
+  }
+  
+  .bt4 {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bt4:hover {
+    background-color: #217dbb;
+  }
+  
+  
+  .movies-section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .movie4 {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 10px 20px;
+    padding: 10px;
+    width: 90%;
+  }
+  
+
+  
+  .movie-details4 {
+    text-align: left;
+  }
+  
+  .buy-ticket-btn4,
+  .notify-btn4 {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: auto; 
+  }
+  
+  .notify-btn4 {
+    background-color: #2ecc71;
+  }
+
+  .movie-img4 {
+    width: 200px !important;
+    height: 260px !important;
+    margin-right: 30px;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 4px 8px rgb(24, 19, 19);
+    object-fit: cover; 
+  }
+
+@media (max-width: 768px) {
+  .movie-container4 {
+    width: 100% !important; 
+  }
+
+  .filter-section {
+    margin: 20px 0px;
+  }
+
+  .sl4,
+  .ip4 {
+    width: 100% !important; 
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .bt4 {
+    width: 100% !important;
+  }
+
+  .movie-img4 {
+    width: 100% !important;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .movie4 {
+    flex-direction: column !important;
+  }
+}
+
+  

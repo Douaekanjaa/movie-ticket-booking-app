@@ -1,0 +1,47 @@
+.signinup-container {
+    max-width: 400px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signin-container .t2 {
+    margin-bottom: 20px;
+    color: #e35353;
+  }
+  
+  .lupin {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .ipinup {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e35353;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #333333;
+    margin-bottom: 15px;
+  }
+  
+  .binup {
+    width: 100%;
+    padding: 10px;
+    background-color: #e35353;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .binup:hover {
+    background-color: #d32f2f;
+  }
+  

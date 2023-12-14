@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.foot{
+
+    background: linear-gradient(  #282c34,black, black );
+    height: 300px;
+}  
+.Footer {
+    padding: 2rem 0;
+    margin-bottom: 15rem;
+  }
+  
+  .ft-1 h3 {
+    font-weight: 700px;
+    font-family: cursive;
+    letter-spacing: 2px;
+    padding: 0.5rem 0;
+    
+  }
+  
+  .ft-1 span {
+    color: #e50914;
+  }
+  
+  .ft-1 p {
+    padding: 0rem 5rem 0.8rem 0;
+    font-weight: 500;
+    color: rgb(196, 196, 196);
+    font-family: Georgia, serif;
+    position: relative;
+    bottom: 30px;
+  }
+  
+  .footer-icons  {
+    display: flex;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .ic {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+    position: relative;
+    left: 200px;
+
+  }
+  
+  .Footer h5 {
+    font-family: Georgia, serif;
+    color: #e50914;
+    font-family: Georgia, serif;
+  }
+  
+  .ft-2 ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .ft-2 ul li {
+    padding: 0.35rem 0;
+    font-weight: 500;
+  }
+  
+  .ft-2 ul a {
+    text-decoration: none;
+    font-family: Georgia, serif;
+    color: rgb(196, 196, 196);
+    font-size: 1.06rem;
+    font-family: Georgia, serif;
+  }
+  
+  .ft-3 p {
+    font-weight: 500;
+    padding: 0.1rem 0;
+    font-size: 1.06rem;
+    color: rgb(196, 196, 196);
+    font-family: Georgia, serif;
+    font-family: Georgia, serif;
+  }
+  
+  .ft-3 i {
+    padding-right: 0.5rem;
+  }
+  
+  .Last-footer {
+    background: #e50914;
+    height: 50px;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .Last-footer p {
+    font-family: Georgia, serif;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: Georgia, serif;
+  }
+  .logoF{
+    width: 150px;
+    height: auto;
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+    
+  }
+  @media (max-width: 700px) {
+    .logoF{
+      width: 150px;
+      height: auto;
+      position: relative;
+      left: 110px;
+      
+    }
+
+    .ft-1 p {
+      position: relative;
+      left: 40px;
+
+  }
+
+
+  .footer-icons  {
+    position: relative;
+    right: 90px;
+  }
+
+  .Last-footer {
+    position: static;
+    bottom: 0;
+  }
+  
+  .foot{
+    height: 700px;
+} 
+
+.Last-footer p {
+  font-size: small;
+}
+
+}
+  

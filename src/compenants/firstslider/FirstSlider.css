@@ -1,0 +1,153 @@
+/* FirstSlider.css */
+body {
+  background-color: #282c34 !important;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.container-fluid {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse; 
+  align-items: center;
+  justify-content: start !important;
+  background-color: #282c34;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: start !important;
+  position: absolute;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+  border-radius: 10px;
+}
+
+.movie-details h1 {
+  width: 150% !important;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: #e35353 !important;
+  text-transform: capitalize;
+  text-align: start;
+  margin-bottom: 10px;
+  color: white;
+  animation: colorChange 5s infinite; 
+}
+
+@keyframes colorChange {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #e50914;
+  }
+  100% {
+    color: white;
+  }
+}
+
+
+.movie-details p {
+  text-align: start;
+  color: white;
+}
+
+.button-group {
+  bottom: 20px;
+  
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: end;
+  width: 97%;
+}
+
+
+.buy-ticket-button,
+.view-details-button,
+.next-button,
+.previous-button {
+  background-color: #e50914 !important; 
+  color: #fff !important; 
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-ticket-button:hover,
+.view-details-button:hover,
+.next-button:hover,
+.previous-button:hover {
+  background-color: #bf0813 !important; 
+  transform: scale(1.05); 
+}
+#sp {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+.test{
+  display: flex;
+  justify-content: space-between !important;
+}
+.pos1{
+  position: absolute;
+  right: 10px;
+  bottom: 3%;
+}
+.pos2{
+  display: flex;
+  justify-content: center !important;
+}
+
+
+@media (max-width: 768px) {
+  .row {
+    width: 100% !important;
+  }
+  .movie-details h1 {
+    font-size: 1.5rem !important;
+    text-align: center !important;
+    color: white;
+    width: 200% !important;
+    overflow:  auto;
+  }
+  .movie-details p {
+    display: none;
+  }
+  .buy-ticket-button,
+  .view-details-button,
+  .previous-button,
+  .next-button {
+    background-color: #e50914 !important; 
+    color: #fff !important; 
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.5rem !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .pos1{
+    position: absolute;
+    right: 10px;
+    bottom: 10% ;
+  }
+}
+

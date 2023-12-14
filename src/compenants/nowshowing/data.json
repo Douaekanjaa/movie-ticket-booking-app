@@ -1,0 +1,332 @@
+
+[
+  {
+    "id": 1,
+    "title": "Avengers Endgame",
+    "description": "The Avengers embark on a final mission to save the universe.",
+    
+    "imageUrl": "/images/avengers_endgame_cv2.jpeg",
+    "showtimes": ["10:00 AM", "2:30 PM", "7:00 PM"],
+    "date": ["2023-12-18", "2023-12-20", "2023-12-21"],
+    "imdbRating": "8.0",
+    "duration": "2h 30min",
+    "country": "USA",
+    "language": "English",
+    "releaseDate": "May 4, 2019",
+    "directors": ["Anthony Russo", "Joe Russo"],
+    "storyline": "In Avengers: Endgame, the surviving members of the Avengers and their allies work to reverse the damage caused by Thanos in Infinity War.",
+    "cast": [
+      {
+        "name": "Robert Downey Jr.",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Chris Evans",
+        "image": "https://m.media-amazon.com/images/M/MV5BNWIzZTI1ODUtZTUzMC00NTdiLWFlOTYtZTg4MGZkYmU4YzNlXkEyXkFqcGdeQXVyNTExOTk5Nzg@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Mark Ruffalo",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTU2NTg1OTQzMF5BMl5BanBnXkFtZTcwNjIyMjkyMg@@._V1_UY218_CR2,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Scarlett Johansson",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_UY218_CR15,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Jeremy Renner",
+        "image": "https://m.media-amazon.com/images/M/MV5BOTk2NDc2ODgzMF5BMl5BanBnXkFtZTcwMTMzOTQ4Nw@@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Cobie Smulders",
+        "image": "https://m.media-amazon.com/images/M/MV5BN2ViYjA1NzAtMTU0NS00NTc4LThmNGItZDJlNzY4YjQ2OWMwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      }
+    ],
+    "images": [
+      "/images/avengers_endgame_img1.jpeg",
+      "/images/avengers_endgame_img2.jpeg",
+      "/images/avengers_endgame_img3.jpeg",
+      "/images/avengers_endgame_img4.jpeg",
+      "/images/avengers_endgame_img5.jpeg"
+    ],
+    "price" : "70"
+  },
+  {
+    "id": 2,
+    "title": "Oppenheimer",
+    "description": "A dramatization of the life story of J. Robert Oppenheimer, the physicist who had a large hand in the development of the atomic bomb, thus helping end World War 2. We see his life from university days all the way to post-WW2, where his fame saw him embroiled in political machinations.",
+    "imageUrl": "/images/Oppenheimer_cv2.jpeg",
+    "showtimes": ["1:00 PM", "5:30 PM", "10:15 PM"],
+    "date": ["2023-12-19", "2023-12-20", "2023-12-21"],
+    "imdbRating": "7.8",
+    "duration": "2h 15min",
+    "country": "USA",
+    "language": "English",
+    "releaseDate": "April 15, 2020",
+    "directors": ["Christopher Nolan"],
+    "storyline": "Oppenheimer is a biographical drama that follows the life of J. Robert Oppenheimer, a key figure in the development of the atomic bomb during World War II.",
+    "cast": [
+      {
+        "name": "Cillian Murphy",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTA0MzUzODcxMTNeQTJeQWpwZ15BbWU4MDc2NTMzMjEy._V1_UY218_CR4,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Emily Blunt",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTk1MTIyMTk0Nl5BMl5BanBnXkFtZTcwMjEzMTY3Nw@@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Tom Hardy",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI5MTk4MTc5M15BMl5BanBnXkFtZTcwMzA4NTMzMw@@._V1_UY218_CR1,0,150,218_AL_.jpg"
+      }
+    ],
+    "images": [
+      "/images/oppenheimer_img1.jpeg",
+      "/images/oppenheimer_img2.jpeg",
+      "/images/oppenheimer_img3.jpeg"
+    ],
+    "price" : "70"
+  },
+  {
+    "id": 3,
+    "title": "Coco",
+    "description": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+    "imageUrl": "/images/coco_cv1.jpeg",
+    "showtimes": ["12:30 PM", "3:45 PM", "8:00 PM"],
+    "date": ["2023-12-18", "2023-12-19", "2023-12-21"],
+    "imdbRating": "8.4",
+    "duration": "1h 45min",
+    "country": "USA",
+    "language": "English",
+    "releaseDate": "November 22, 2017",
+    "directors": ["Lee Unkrich", "Adrian Molina"],
+    "storyline": "Coco is a vibrant and heartwarming animated film that follows the journey of Miguel, a young boy who aspires to be a musician despite his family's ban on music.",
+    "cast": [
+      {
+        "name": "Anthony Gonzalez",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTg0NjgzNjk1N15BMl5BanBnXkFtZTgwNTM4MTI3MzI@._V1_UY218_CR1,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Gael García Bernal",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTg4MTQzODg4Nl5BMl5BanBnXkFtZTgwMDkzODE3NzE@._V1_UY218_CR1,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Benjamin Bratt",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTA4ODQyMjMwMTleQTJeQWpwZ15BbWU4MDUxODMyMjEy._V1_UX150_CR0,0,150,218_AL_.jpg"
+      }
+    ],
+    "images": [
+      "/images/coco_img1.jpeg",
+      "/images/coco_img2.jpeg",
+      "/images/coco_img3.jpeg"
+    ],
+    "price" : "70"
+  },
+  {
+    "id": 4,
+    "title": "The Dark Knight",
+    "description": "Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "imageUrl": "/images/dark_knight_cv1.jpeg",
+    "showtimes": ["10:30 AM", "3:00 PM", "6:45 PM"],
+    "date": ["2023-12-18", "2023-12-19", "2023-12-21"],
+    "imdbRating": "9.0",
+    "duration": "2h 32min",
+    "country": "USA",
+    "language": "English",
+    "releaseDate": "July 18, 2008",
+    "directors": ["Christopher Nolan"],
+    "storyline": "The Dark Knight is a gripping superhero film that follows Batman as he faces the Joker, a criminal mastermind with a twisted sense of justice.",
+    "cast": [
+      {
+        "name": "Christian Bale",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTgyMw@@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Heath Ledger",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTMx2NjY2NjU4MV5BMl5BanBnXkFtZTcwNTUyNjU3Mw@@._V1_UY218_CR1,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Aaron Eckhart",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQwMDcyNjU4OV5BMl5BanBnXkFtZTcwMDA2MjA3NQ@@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      }
+    ],
+    "images": [
+      "/images/dark_knight_img1.jpeg",
+      "/images/dark_knight_img2.jpeg",
+      "/images/dark_knight_img3.jpeg"
+    ],
+    "price" : "70"
+  },
+    {
+    "id": 5,
+    "title": "Inception",
+    "description": "A thief enters the dreams of others to steal their secrets.",
+    "imageUrl": "/images/inception_image.jpeg",
+    "showtimes": ["11:15 AM", "4:45 PM", "9:15 PM"],
+    "date": ["2023-12-18", "2023-12-19", "2023-12-21"],
+    "country": "USA",
+    "language": "English",
+    "releaseDate": "July 16, 2010",
+    "directors": ["Christopher Nolan"],
+    "duration": "2h 28min",
+    "imdbRating": "8.8",
+    "storyline": "Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable.",
+    "cast": [
+      {
+        "name": "Leonardo DiCaprio",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UY218_CR1,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Joseph Gordon-Levitt",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwMDMyNTkxOQ@@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Ellen Page",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UY218_CR1,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Tom Hardy",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwMDMyNTkxOQ@@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Ken Watanabe",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTA3MjcyMzgwNjleQTJeQWpwZ15BbWU4MDUxNDczMDYz._V1_UY218_CR2,0,150,218_AL_.jpg"
+      }
+    ],
+    "images": [
+      "/images/inception1.jpg",
+      "/images/inception2.jpg",
+      "/images/inception3.jpg"
+    ],
+    "price" : "65"
+  },
+  {
+    "id": 6,
+    "title": "Interstellar",
+    "description": "A thief enters the dreams of others to steal their secrets.",
+    "imageUrl": "/images/interstella_cv2.jpeg",
+    "showtimes": ["11:15 AM", "4:45 PM", "9:15 PM"],
+    "date": ["2023-12-18", "2023-12-19", "2023-12-21"],
+    "country": "USA",
+    "language": "English",
+    "releaseDate": "November 7, 2014",
+    "directors": ["Christopher Nolan"],
+    "duration": "2h 49min",
+    "imdbRating": "8.6",
+    "storyline": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "cast": [
+      {
+        "name": "Matthew McConaughey",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UY218_CR1,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Anne Hathaway",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwMDMyNTkxOQ@@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Jessica Chastain",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwMDMyNTkxOQ@@._V1_UY218_CR1,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Michael Caine",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UY218_CR1,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Matt Damon",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwMDMyNTkxOQ@@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      }
+    ],
+    "images": [
+      "/images/interstellar1.jpg",
+      "/images/interstellar2.jpg",
+      "/images/interstellar3.jpg"
+    ],
+    "price" : "70"
+  },
+  {
+    "id": 7,
+    "title": "The Matrix",
+    "description": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+    "imageUrl": "/images/matrix_cv1.jpeg",
+    "showtimes": ["12:00 PM", "3:15 PM", "7:45 PM"],
+    "date": ["2023-12-18", "2023-12-19", "2023-12-21"],
+    "country": "USA",
+    "language": "English",
+    "releaseDate": "March 31, 1999",
+    "directors": ["Lana Wachowski", "Lilly Wachowski"],
+    "duration": "2h 16min",
+    "imdbRating": "8.7",
+    "storyline": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+    "cast": [
+      {
+        "name": "Keanu Reeves",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMzItMjRiZi00MTEyLTg1YWItNTA0MmZlMmU1MTJhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Laurence Fishburne",
+        "image": "https://m.media-amazon.com/images/M/MV5BYjFiOTdjOGUtMTQwZC00MjMwLTk2ODUtMzNhZDFjN2NlMTQ4XkEyXkFqcGdeQXVyNTExOTk5Nzg@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Carrie-Anne Moss",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMzItMjRiZi00MTEyLTg1YWItNTA0MmZlMmU1MTJhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Hugo Weaving",
+        "image": "https://m.media-amazon.com/images/M/MV5BYjFiOTdjOGUtMTQwZC00MjMwLTk2ODUtMzNhZDFjN2NlMTQ4XkEyXkFqcGdeQXVyNTExOTk5Nzg@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      },
+      {
+        "name": "Joe Pantoliano",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMzItMjRiZi00MTEyLTg1YWItNTA0MmZlMmU1MTJhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX150_CR0,0,150,218_AL_.jpg"
+      }
+    ],
+    "images": [
+      "/images/matrix1.jpg",
+      "/images/matrix2.jpg",
+      "/images/matrix3.jpg"
+    ],
+    "price" : "60"
+  },
+  {
+    "id": 8,
+    "title": "Fast X",
+    "description": "Dom Toretto and his family are targeted by the vengeful son of drug kingpin Hernan Reyes.",
+    "imageUrl": "/images/fastx_cv2.jpeg",
+    "showtimes": ["12:00 PM", "3:15 PM", "7:45 PM"],
+    "date": ["2023-12-18", "2023-12-19", "2023-12-21"],
+    "country": "USA",
+    "language": "English",
+    "releaseDate": "May 24, 2023",
+    "directors": ["Justin Lin"],
+    "duration": "2h 23min",
+    "imdbRating": "N/A",
+    "storyline": "Dom Toretto and his family face a new threat when Jakob, Dom's younger brother, joins forces with their old enemy Cipher.",
+    "cast": [
+      {
+        "name": "Vin Diesel",
+        "image": "/images/vin_diesel.jpeg"
+      },
+      {
+        "name": "Michelle Rodriguez",
+        "image": "/images/michelle_rodriguez.jpeg"
+      },
+      {
+        "name": "Jordana Brewster",
+        "image": "/images/jordana_brewster.jpeg"
+      },
+      {
+        "name": "Tyrese Gibson",
+        "image": "/images/tyrese_gibson.jpeg"
+      },
+      {
+        "name": "Chris 'Ludacris' Bridges",
+        "image": "/images/ludacris.jpeg"
+      }
+    ],
+    "images": [
+      "/images/matrix1.jpg",
+      "/images/matrix2.jpg",
+      "/images/matrix3.jpg"
+    ],
+    "price" : "70"
+  }
+
+  ]
+  

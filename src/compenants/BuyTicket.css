@@ -1,0 +1,161 @@
+.buy-ticket-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #282c34;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.movie-image9 {
+  max-width: 50%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.purchase-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#qt2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.quantity-input {
+  width: 150px;
+  max-width: 200px;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #e50914;
+  border-radius: 8px;
+  color: #282c34;
+  background-color: #fff;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.quantity-input:focus {
+  border-color: #ff0000;
+}
+
+.purchase-button {
+  width: 100%;
+  max-width: 200px;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #e50914;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.purchase-button:hover {
+  background-color: #ff0000;
+}
+
+.buy-ticket-container .p56 {
+  margin: 10px 0;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.buy-ticket-container #qt2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.selc77 {
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  color: white;
+  outline: none;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.selc77:hover,
+.selc77:focus {
+  background-color: #e50914;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.selc77 option {
+  background-color: #282c34;
+  color: white;
+}
+
+.selc77::after {
+  content: '\25BC';
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  .quantity-input,
+  .purchase-button {
+    max-width: none;
+  }
+
+  .buy-ticket-container .p56 {
+   margin-right: 50px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .selc77 {
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    margin-right: 40px;
+  }
+
+  .selc77:hover,
+.selc77:focus {
+  background-color: #e50914;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.selc77 option {
+  background-color: #282c34;
+  color: white;
+}
+
+#qt2{
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+.quantity-input {
+  width: 120px;
+  height: 40px;
+}
+
+.quantity-input:focus {
+  border-color: #ff0000;
+}
+}
