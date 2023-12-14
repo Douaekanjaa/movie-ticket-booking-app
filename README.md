@@ -18,3 +18,9 @@ Discover the cutting-edge technologies that power our cinematic haven:
 - **Bootstrap:** Styling components for an elegant and modern look.
 - **JavaScript:** Crafting interactive and dynamic functionalities.
 
+## Features
+- **Browse movies:** View a list of available movies with details such as title, genre, and release date.
+- **Movie details:** Click on a movie to see more information, including a brief description and showtimes.
+- **Seat selection:** Choose your preferred seats from an interactive seating chart.
+- **Purchase history:** View a record of your past movie ticket purchases.
+
