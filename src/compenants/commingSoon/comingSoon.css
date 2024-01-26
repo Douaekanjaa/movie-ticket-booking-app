@@ -81,18 +81,15 @@ hr {
   left: 0;
   right: 0;
   bottom: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   z-index: 2;
   color: #fff;
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 10px;
   font-weight: bold;
-  margin-top: 15%;
+  margin-top: 10%;
   text-shadow: 8px 8px 5px rgba(0, 0, 0, 0.751) !important;
 }
 
@@ -113,3 +110,17 @@ hr {
   z-index: 3;
 }
 
+@media (max-width: 768px) {
+  .movie-card2 {
+    min-width: 130px !important;
+    max-width: 160px !important;
+    height: 230px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+  }
+  .card-text {
+    margin-bottom: 10px;
+    color: white;
+    font-size: x-small;
+  }
+}

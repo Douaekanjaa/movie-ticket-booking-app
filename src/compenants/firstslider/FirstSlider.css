@@ -9,6 +9,7 @@ body {
 .container-fluid {
   position: relative;
   display: flex;
+  
   flex-direction: row-reverse; 
   align-items: center;
   justify-content: start !important;
@@ -148,6 +149,9 @@ body {
     position: absolute;
     right: 10px;
     bottom: 10% ;
+  }
+  .aa{
+  height: 250px !important;
   }
 }
 

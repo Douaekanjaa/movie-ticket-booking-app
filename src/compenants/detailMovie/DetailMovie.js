@@ -4,6 +4,7 @@ import ImgSlider from './ImgSlider';
 import './DetailMovie.css';
 import { Link } from 'react-router-dom'; 
 import nowShowingMovies from '../nowshowing/data.json';
+import Footer from '../Footer/Footer';
 
 const DetailMovie = () => {
   const { id } = useParams();
@@ -31,6 +32,7 @@ const DetailMovie = () => {
   }
 
   return (
+    <>
     <div className="detail-movie">
       
 
@@ -110,6 +112,8 @@ const DetailMovie = () => {
         </div>
       </div>
     </div>
+    <Footer />
+    </>
   );
 };
 

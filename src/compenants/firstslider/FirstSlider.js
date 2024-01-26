@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import './FirstSlider.css';
+import { Link } from 'react-router-dom'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const movies = [
@@ -25,7 +26,7 @@ const movies = [
     videoId: 'uYPbbksJxIg',
   },
   {
-    id: 3,
+    id: 5,
     title: 'Inception',
     date: '2010-07-08',
     details: 'Dom Cobb (Leonardo DiCaprio) is a thief with the rare ability to enter people\'s dreams and steal their secrets from their subconscious. His skill has made him a hot commodity in the world of corporate espionage but has also cost him everything he loves. Cobb gets a chance at redemption when he is offered a seemingly impossible task: Plant an idea in someone\'s mind. If he succeeds, it will be the perfect crime, but a dangerous enemy anticipates Cobb\'s every move.',
@@ -35,7 +36,7 @@ const movies = [
     videoId: 'YoHD9XEInc0',
   },
   {
-    id: 4,
+    id: 6,
     title: 'Interstellar',
     date: '2023-01-15',
     details: 'In Earth\'s future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth\'s population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind\'s new home.',
@@ -77,7 +78,7 @@ export default function FirstSlider() {
   return (
     <div className="container-fluid p-0">
       <div className="row p-0 m-0">
-        <div className="col-12 col-md-12 w-50">
+        <div className="col-12 col-md-12 w-50 ">
           <div className="movie-details mt-5">
             <h1 className='mb-5'>{movies[currentMovieIndex].title}</h1>
             <p className='px-2'> <strong id='sp' >Genre</strong>: {movies[currentMovieIndex].type}</p>
@@ -86,7 +87,9 @@ export default function FirstSlider() {
           </div>
           <div className='test'>
             <div className='pos2'>
-              <button className="buy-ticket-button ms-3 ms-md-5 px-2 px-md-5 btn ">Buy Ticket</button>
+              <Link to={`/buy-ticket/${movies[currentMovieIndex].id}`} id='lk'>
+                <button className="buy-ticket-button ms-3 ms-md-5 px-2 px-md-5 btn ">Buy Ticket</button>
+              </Link>
               <button className="buy-ticket-button btn px-md-4  mx-2 mx-md-5" onClick={handleWatchTrailer}>
                 Watch Trailer
               </button>
@@ -102,11 +105,11 @@ export default function FirstSlider() {
           </div>
         </div>
       </div>
-      <div className="image-container">
+      <div className="image-container aa">
         <img
           src={movies[currentMovieIndex].imageUrl}
           alt={movies[currentMovieIndex].title}
-          className="movie-image img-fluid p-0 m-0"
+          className="movie-image img-fluid aa p-0 m-0"
         />
       </div>
     </div>

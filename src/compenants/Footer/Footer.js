@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='Last-footer'>
-                <p>Copyright © 2023 <a href="">NisDua</a> - All rights reserved</p>
+                <p>Copyright © 2023 <a href="">Ciné</a> - All rights reserved</p>
             </div>
         </>
     );

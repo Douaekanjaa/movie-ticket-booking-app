@@ -41,13 +41,6 @@
       "releaseDate": "2024-01-08",
       "description": "Willy Wonka – chock-full of ideas and determined to change the world one delectable bite at a time – is proof that the best things in life begin with a dream, and if you’re lucky enough to meet Willy Wonka, anything is possible.",
       "imageUrl": "/images/wonka_cv1.jpeg"
-    },
-    {
-      "id": 7,
-      "title": "Aladdin",
-      "releaseDate": "2023-02-19",
-      "description": "A kindhearted street urchin named Aladdin embarks on a magical adventure after finding a lamp that releases a wisecracking genie while a power-hungry Grand Vizier vies for the same lamp that has the power to make their deepest wishes come true.",
-      "imageUrl": "/images/aladdin.jpeg"
     }
   ]
   

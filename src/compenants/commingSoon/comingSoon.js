@@ -24,7 +24,7 @@ export default function comingSoon() {
               <div className="card-face front">
                 <Card.Img className="movie-image2" variant="top" src={process.env.PUBLIC_URL +movie.imageUrl} alt={movie.title} />
                 <div className="movie-details2">
-                  <Card.Title className='title'>{movie.title}</Card.Title>
+                  <Card.Title className='title1'>{movie.title}</Card.Title>
                   <div className='movie-dt2'>
                     <Card.Text className='card-text' >
                       <strong id='release'>Release Date:</strong> {movie.releaseDate}
