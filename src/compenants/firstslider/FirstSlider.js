@@ -1,4 +1,4 @@
-// FirstSlider.js
+
 import React, { useState, useEffect } from 'react';
 import './FirstSlider.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,6 +12,7 @@ const movies = [
     imageUrl: `${process.env.PUBLIC_URL}/images/avengers_endgame_cv1.png`,
     type: 'Action',
     duration: '2h 30m',
+    videoId: 'TcMBFSGVi1c',
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const movies = [
     imageUrl: `${process.env.PUBLIC_URL}/images/oppenheimer_cv1.png`,
     type: 'Thriller/Thriller',
     duration: '3h 00m',
+    videoId: 'uYPbbksJxIg',
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ const movies = [
     imageUrl: `${process.env.PUBLIC_URL}/images/inception_cv1.png`,
     type: 'Sci-fi/Action',
     duration: '2h 28m',
+    videoId: 'YoHD9XEInc0',
   },
   {
     id: 4,
@@ -39,8 +42,10 @@ const movies = [
     imageUrl: `${process.env.PUBLIC_URL}/images/interstella_cv1.png`,
     type: 'Sci-Fi',
     duration: '2h 49m',
+    videoId: '2LqzF5WauAw',
   },
 ];
+
 export default function FirstSlider() {
   const [currentMovieIndex, setCurrentMovieIndex] = useState(0);
 
@@ -54,10 +59,17 @@ export default function FirstSlider() {
     setCurrentMovieIndex(previousIndex);
   };
 
+  const handleWatchTrailer = () => {
+    const youtubeVideoId = movies[currentMovieIndex].videoId;
+    const youtubeVideoUrl = `https://www.youtube.com/watch?v=${youtubeVideoId}`;
+    
+    window.open(youtubeVideoUrl, '_blank');
+  };
+
   useEffect(() => {
     const intervalId = setInterval(() => {
       handleNext();
-    }, 5000);
+    }, 9000);
 
     return () => clearInterval(intervalId);
   }, [currentMovieIndex]);
@@ -75,7 +87,9 @@ export default function FirstSlider() {
           <div className='test'>
             <div className='pos2'>
               <button className="buy-ticket-button ms-3 ms-md-5 px-2 px-md-5 btn ">Buy Ticket</button>
-              <button className="buy-ticket-button btn px-md-4  mx-2 mx-md-5">Watch Trailer </button>
+              <button className="buy-ticket-button btn px-md-4  mx-2 mx-md-5" onClick={handleWatchTrailer}>
+                Watch Trailer
+              </button>
             </div>
             <div className='pos1'>
               <button className="previous-button  me-3 px-2 px-md-3 py-1 py-md-2" onClick={handlePrevious}>
