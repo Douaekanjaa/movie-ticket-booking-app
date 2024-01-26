@@ -162,10 +162,11 @@
 
 @media (max-width: 768px) {
   .movie-card1 {
-    width: 170px !important;
+    min-width: 130px !important;
+    max-width: 160px !important;
     height: 220px !important;
-    margin-right: 10px !important;
-    margin-left: 10px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
   }
   .movie-card1 .title1 {
     position: relative;
