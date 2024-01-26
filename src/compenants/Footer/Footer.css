@@ -1,146 +1,159 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-.foot{
+.foot {
+  background: linear-gradient(#282c34, black, black);
+  height: 330px;
+}
 
-    background: linear-gradient(  #282c34,black, black );
-    height: 300px;
-}  
-.Footer {
-    padding: 2rem 0;
-    margin-bottom: 15rem;
-  }
-  
-  .ft-1 h3 {
-    font-weight: 700px;
-    font-family: cursive;
-    letter-spacing: 2px;
-    padding: 0.5rem 0;
-    
-  }
-  
-  .ft-1 span {
-    color: #e50914;
-  }
-  
-  .ft-1 p {
-    padding: 0rem 5rem 0.8rem 0;
-    font-weight: 500;
-    color: rgb(196, 196, 196);
-    font-family: Georgia, serif;
-    position: relative;
-    bottom: 30px;
-  }
-  
-  .footer-icons  {
-    display: flex;
-    position: relative;
-    bottom: 30px;
-  }
+.footer-container {
+  display: flex !important;
+  align-items: flex-start;
+  padding: 2rem 0;
+}
 
-  .ic {
-    width: 30px; 
-    height: 30px; 
-    margin-right: 10px; 
-    position: relative;
-    left: 200px;
+.footer-col {
+  flex: 1;
+  display: flex;
+  width: 33%;
+  min-width: 28%; 
+}
 
-  }
+.ft-1 h3 {
+  font-weight: 700;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+}
+
+.ft-1 span {
+  color: #e50914;
+}
+
+.ft-1 p {
+  font-weight: 500;
+  color: rgb(196, 196, 196);
+  font-family: Georgia, serif;
   
-  .Footer h5 {
-    font-family: Georgia, serif;
-    color: #e50914;
-    font-family: Georgia, serif;
-  }
-  
-  .ft-2 ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .ft-2 ul li {
-    padding: 0.35rem 0;
-    font-weight: 500;
-  }
-  
-  .ft-2 ul a {
-    text-decoration: none;
-    font-family: Georgia, serif;
-    color: rgb(196, 196, 196);
-    font-size: 1.06rem;
-    font-family: Georgia, serif;
-  }
-  
-  .ft-3 p {
-    font-weight: 500;
-    padding: 0.1rem 0;
-    font-size: 1.06rem;
-    color: rgb(196, 196, 196);
-    font-family: Georgia, serif;
-    font-family: Georgia, serif;
-  }
-  
-  .ft-3 i {
-    padding-right: 0.5rem;
-  }
-  
-  .Last-footer {
-    background: #e50914;
-    height: 50px;
-    text-align: center;
-    padding: 1rem 0;
-  }
-  
-  .Last-footer p {
-    font-family: Georgia, serif;
-    margin-bottom: 0;
-    font-size: 1.2rem;
-    font-weight: 700;
-    font-family: Georgia, serif;
-  }
-  .logoF{
+}
+
+
+
+.ic {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.Footer h5 {
+  font-family: Georgia, serif;
+  color: #e50914;
+}
+
+.ft-2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ft-2 ul li {
+  padding: 0.35rem 0;
+  font-weight: 500;
+}
+
+.ft-2 ul a {
+  text-decoration: none;
+  font-family: Georgia, serif;
+  color: rgb(196, 196, 196);
+  font-size: 1.06rem;
+}
+
+
+.ft-3 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ft-3 ul li {
+  padding: 0.35rem 0;
+  font-weight: 500;
+}
+
+.ft-3 ul a {
+  text-decoration: none;
+  font-family: Georgia, serif;
+  color: rgb(196, 196, 196);
+  font-size: 1.06rem;
+}
+
+
+.Last-footer {
+  background: #e50914;
+  height: 50px;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.Last-footer p {
+  font-family: Georgia, serif;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.logoF {
+  width: 200px;
+  height: 150px;
+  justify-self: center;
+}
+
+.cl{
+  color: rgb(118, 118, 118);
+}
+
+@media (max-width: 700px) {
+  .logoF {
     width: 150px;
     height: auto;
     position: relative;
-    left: 200px;
-    bottom: 20px;
-    
-  }
-  @media (max-width: 700px) {
-    .logoF{
-      width: 150px;
-      height: auto;
-      position: relative;
-      left: 110px;
-      
-    }
-
-    .ft-1 p {
-      position: relative;
-      left: 40px;
-
+    left: 110px;
   }
 
-
-  .footer-icons  {
+  .ft-1 p {
     position: relative;
-    right: 90px;
+    left: 0;
+  }
+
+  .footer-icons {
+    position: relative;
+    right: 0;
   }
 
   .Last-footer {
     position: static;
     bottom: 0;
   }
-  
-  .foot{
-    height: 700px;
-} 
 
-.Last-footer p {
-  font-size: small;
-}
+  .foot {
+    height: 810px;
+  }
 
+  .Last-footer p {
+    font-size: small;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ft-3 {
+    align-items: center;
+  }
+
+  .footer-col {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
-  

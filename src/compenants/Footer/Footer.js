@@ -1,55 +1,53 @@
-import React from 'react'
-import './Footer.css'
+import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
     return (
         <>
-        <div className='foot'>
-        <div className="Footer">
+            <div className='foot'>
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-6 col-lg-5 col-12 ft-1">
-                            <h3><img src="./NisDua.png" alt="logo" className="logoF"/></h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ea quo ex ullam laboriosam magni totam, facere eos iure voluptate.</p>
+                    <div className="row display-flex">
+                        <div className="col-md-5 col-11  ft-1">
+                           <img src={`${process.env.PUBLIC_URL}/cinema.png`} alt="logo" className="logoF"/>
+                            <p style={{ width: "80%" }}>Dive into cinematic enchantment with us! 🍿✨ Book tickets effortlessly, select prime seats, and indulge in the magic of movies. Cinema Ticket Booking — where each visit unfolds a story on the big screen. 🎬🎟️🌟</p>
                             <div className="footer-icons">
-                                <img src="./fb.png" alt="fb" className="ic"/>
-                                <img src="./x.png" alt="x" className="ic"/>
-                                <img src="./ig.png" alt="ig" className="ic"/>
-                                <img src="./in.png" alt="in" className="ic"/>
+                                <img src={`${process.env.PUBLIC_URL}/fb.png`} alt="fb" className="ic"/>
+                                <img src={`${process.env.PUBLIC_URL}/x.png`} alt="x" className="ic"/>
+                                <img src={`${process.env.PUBLIC_URL}/ig.png`} alt="ig" className="ic"/>
+                                <img src={`${process.env.PUBLIC_URL}/in.png`} alt="in" className="ic"/>
                             </div>
-                        </div>
-                        <div className="col-md-6 col-lg-3 col-12 ft-2">
-                            <h5>Quick Links</h5>
+                        </div> 
+                        <div className="col-md-3 col-11 ft-2">
+                            <h5 className='cl'>Quick Links</h5>
                             <ul>
-                                <li className="nav-item">
-                                    <a className="" href="/">Services</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="" href="/">About US</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="" href="/">Contact Us</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="" href="/">News</a>
-                                </li>
+                                <li><a href="/">Services</a></li>
+                                <li><a href="/">About US</a></li>
+                                <li><a href="/">Contact Us</a></li>
+                                <li><a href="/">History</a></li>
+                                <li><a href="/">News</a></li>
                             </ul>
                         </div>
-                        <div className="col-md-6 col-lg-4 col-12 ft-3" >
-                            <h5>Quick Links</h5>
-                            <p><i className="fa-solid fa-phone-volume"></i> +212 6121324083</p>
-                            <p><i className="fa-solid fa-envelope"></i> NisDuaaa@gmail.com</p>
-                            <p><i className="fa-solid fa-paper-plane"></i> Tangier, Morocco.</p>
+                        <div className="col-md-3 col-11 ft-3">
+                            <h5 className='cl'>Contact Info</h5>
+                            <ul>
+                                <li> <a href="tel:+212 6121324083">+212 6121324083</a></li>
+                                <li> <a href="mailto:cine@gmail.com">cine@gmail.com</a></li>
+                               
+                            </ul>
+                            <h5 className='cl'>Locations</h5>
+                            <ul>
+                                <li> <a href='#'>Tangier, Morocco.</a> </li>
+                                <li> <a href='#'>Casablanca, Morocco.</a> </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
             <div className='Last-footer'>
                 <p>Copyright © 2023 <a href="">NisDua</a> - All rights reserved</p>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;
